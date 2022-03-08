@@ -136,7 +136,7 @@ const data = [
     },
 ]
 
-function Pagination() {
+function PaginationTable() {
     return (
         <div>
             <h1>Pagination tables</h1>
@@ -148,4 +148,4 @@ function Pagination() {
         </div>
     );
 };
-export default Pagination
+export default PaginationTable

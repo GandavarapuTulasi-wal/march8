@@ -1,19 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
 import Table from './Table'
-import Expandable from './Expandable'
-import Sorting from './Sorting'
-import Selectable from './Selectable'
-import Pagination from './Pagination'
+import ExpandableTable from './ExpandableTable'
+import SortingTable from './SortingTable'
+import SelectableTable from './SelectableTable'
+import PaginationTable from './PaginationTable'
 
 function App() {
   return (
     <div className="App">
       <Table />
-      <Expandable />
-      <Sorting />
-      <Selectable />
-      <Pagination />
+      <ExpandableTable />
+      <SortingTable />
+      <SelectableTable />
+      <PaginationTable />
     </div>
   );
 }

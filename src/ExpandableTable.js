@@ -25,9 +25,29 @@ const data = [
         title: 'Ghostbusters',
         year: '1984',
     },
+    {
+        id: 3,
+        title: 'iron man 1',
+        year: '2008',
+    },
+    {
+        id: 4,
+        title: 'iron man 2',
+        year: '2010',
+    },
+    {
+        id: 5,
+        title: 'Hulk',
+        year: '2008',
+    },
+    {
+        id: 6,
+        title: 'Thor',
+        year: '2011',
+    },
 ]
 
-function Expandable() {
+function ExpandableTable() {
     return (
         <div>
             <h1>Expandable Table</h1>
@@ -40,4 +60,4 @@ function Expandable() {
         </div>
     );
 };
-export default Expandable
+export default ExpandableTable

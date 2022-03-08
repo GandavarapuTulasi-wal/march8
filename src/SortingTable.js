@@ -4,10 +4,12 @@ const columns = [
     {
         name: 'Title',
         selector: row => row.title,
+        sortable: true,
     },
     {
         name: 'Year',
         selector: row => row.year,
+        sortable: true,
     },
 ];
 
@@ -22,18 +24,37 @@ const data = [
         title: 'Ghostbusters',
         year: '1984',
     },
+    {
+        id: 3,
+        title: 'iron man 1',
+        year: '2008',
+    },
+    {
+        id: 4,
+        title: 'iron man 2',
+        year: '2010',
+    },
+    {
+        id: 5,
+        title: 'Hulk',
+        year: '2008',
+    },
+    {
+        id: 6,
+        title: 'Thor',
+        year: '2011',
+    },
 ]
 
-function Selectable() {
+function SortingTable() {
     return (
         <div>
-            <h1>Selectable tables</h1>
+            <h1>Sorting tables</h1>
             <DataTable
                 columns={columns}
                 data={data}
-                selectableRows
             />
         </div>
     );
 };
-export default Selectable
+export default SortingTable
